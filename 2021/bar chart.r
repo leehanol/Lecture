@@ -1,3 +1,6 @@
+require(openintro)
+require(lattice)
+
 data <-read.csv("table2.csv")
 head(data)
 
