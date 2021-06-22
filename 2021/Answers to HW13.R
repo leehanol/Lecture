@@ -1,0 +1,5 @@
+data <-read.csv("Doctor.csv")
+head(data)
+summary(data)
+result <- lm(log(doctor+1) ~ children, data=data)
+summary(result)
